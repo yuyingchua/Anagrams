@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F68894AD21427F3800D2EFFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68894AC21427F3800D2EFFF /* main.cpp */; };
+		F68894AD21427F3800D2EFFF /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68894AC21427F3800D2EFFF /* Dictionary.cpp */; };
+		F68894B521427F7D00D2EFFF /* Interactivetester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68894B421427F7C00D2EFFF /* Interactivetester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F68894A921427F3800D2EFFF /* Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Anagrams; sourceTree = BUILT_PRODUCTS_DIR; };
-		F68894AC21427F3800D2EFFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F68894AC21427F3800D2EFFF /* Dictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		F68894B321427F5B00D2EFFF /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		F68894B421427F7C00D2EFFF /* Interactivetester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interactivetester.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F68894AB21427F3800D2EFFF /* Anagrams */ = {
 			isa = PBXGroup;
 			children = (
-				F68894AC21427F3800D2EFFF /* main.cpp */,
+				F68894B321427F5B00D2EFFF /* Dictionary.h */,
+				F68894AC21427F3800D2EFFF /* Dictionary.cpp */,
+				F68894B421427F7C00D2EFFF /* Interactivetester.cpp */,
 			);
 			path = Anagrams;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68894AD21427F3800D2EFFF /* main.cpp in Sources */,
+				F68894AD21427F3800D2EFFF /* Dictionary.cpp in Sources */,
+				F68894B521427F7D00D2EFFF /* Interactivetester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
